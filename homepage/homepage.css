@@ -1,0 +1,277 @@
+body, div {
+    border: 1px solid transparent;
+}
+
+@font-face {
+	font-family: 'VAGRundschriftDLig';
+	src: url('fonts/VAGRundschriftD-Lig.eot');
+	src: url('fonts/VAGRundschriftD-Lig.eot?#iefix') format('embedded-opentype'),
+		url('fonts/VAGRundschriftD-Lig.woff') format('woff'),
+		url('fonts/VAGRundschriftD-Lig.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    font-family: 'VAGRundschriftDLig';
+}
+/*header*/
+
+.navigation-bar {
+    height: 113px;
+}
+
+.header {
+    height: 120px;
+}
+
+.text {
+    margin: 60px auto 70px auto;
+    padding: 1em 10em 1em 10em;
+}
+
+.text p {
+    line-height: 1.8em;
+    text-decoration-style: none;
+}
+
+.navbar {
+    margin: 0;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.navbar-list li {
+    margin-left: 2em;
+    font-size: 16px;
+}
+
+li {
+    display: inline-block;
+    text-decoration-style: none;
+}
+
+.navbar .btn-signup-login a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.navbar .btn-signup-login a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+.navbar .btn-signup-login a:hover {
+    text-decoration: none;
+    color:rgb(250, 219, 73);
+}
+
+.navbar-list a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.navbar-list a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-list a:hover {
+    text-decoration: none;
+    color:rgb(250, 219, 73);
+    font-weight: bold;
+}
+
+
+
+ /*cover*/
+
+.cover {
+    background-image: url('rawpixel_modified.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50em;
+    
+}
+
+.cover p {
+    text-align: center;
+    font-size: 32px;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    background-color: rgb(250, 219, 73);
+    color: #fff;
+    border-radius: 0%;
+    width: 20em;
+    margin: 14.3em auto;
+}
+
+.cover a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.cover a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cover a:visited {
+    color: rgb(238, 110, 85);
+    text-decoration: none;
+}
+
+
+
+/*logo*/
+
+.logo img {
+    height: auto;
+    width: 50%;
+}
+
+.logo {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.btn-signup-login li {
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 15%;
+    border: 3px solid  rgb(250, 219, 73);
+    margin: 1em 1em 0 0;
+}
+
+.btn-signup-login a:link {
+    text-decoration: none;    
+}
+
+.btn-signup-login a:hover {
+    text-decoration: none;   
+    color: rgb(250, 219, 73);
+}
+
+.signup-login {
+    text-align: right;
+    padding: 1.5em;
+}
+
+
+/* images */
+
+.images img {
+    height: auto;
+    width: 33%;
+    display: inline-block;
+} 
+
+
+
+
+/* sponsors */
+
+.sponsors {
+    height: 57em;
+    margin-top: 20em;
+}
+
+.sponsor-title h2 {
+    text-align: center;
+}
+
+
+.sponsor img {
+    height: auto;
+    width: 12%;
+    margin: 3em 1.5em 0 1.5em;
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.navbar-footer {
+    margin-top: 2em;
+}
+
+.navbar-footer li {
+    padding: 1em 2em 0 0;
+    text-transform: uppercase;
+}
+
+.navbar-footer a:link {
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar-footer a:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbar-footer a:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(250, 219, 73);
+}
+
+.social-icons {
+    margin-top: 3em;
+}
+
+.social-icons img {
+    margin: 4em 0 0 1em;
+    height: auto;
+    width: 35px;
+}
+
+.copy p {
+    text-align: center;
+}
+
+.newsletter input {
+    height: 3em;
+    width: 24em;
+}
+
+.newsletter label {
+    margin-top: 2em;
+    margin-left: 16em;
+    line-height: 3em;
+}
+
+#footer-logo {
+    width: 30%;
+    height: auto;
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.address a:link {
+    color: rgb(250, 219, 73);
+}
+
+.address a:visited {
+    color: rgb(250, 219, 73);
+}
+
+.copy {
+    height: 3em;
+    margin-top: 3em;
+}
+
+
+
+
+
+

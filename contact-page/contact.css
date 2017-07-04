@@ -1,0 +1,281 @@
+
+/*body, div {
+    border: 1px solid black;
+}*/
+
+/*header*/
+
+.navigation-bar {
+    height: 113px;
+
+}
+
+.header {
+    height: 120px;
+}
+
+.text {
+    margin: 60px auto 70px auto;
+    padding: 1em 10em 1em 10em;
+}
+
+.text p {
+    line-height: 1.8em;
+    text-decoration-style: none;
+}
+
+.navbar {
+    margin: 0;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.btn-signup-login li {
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 15%;
+    border: 3px solid  rgb(250, 219, 73);
+    margin: 1em 1em 0 0;
+}
+
+li {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.navbar-list li {
+    margin-left: 2em;
+    font-size: 16px;
+}
+
+
+.navbar .btn-signup-login a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.navbar .btn-signup-login a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+.navbar .btn-signup-login a:hover {
+    text-decoration: none;
+    color:rgb(250, 219, 73);
+}
+
+.navbar-list a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.navbar-list a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-list a:hover {
+    text-decoration: none;
+    color:rgb(250, 219, 73);
+    font-weight: bold;
+}
+
+
+/*logo*/
+
+.logo img {
+    height: auto;
+    width: 50%;
+}
+
+.logo {
+    margin-top: 0;
+    padding-top: 10px;
+}
+ /*contact form */
+
+.contact-form {
+    padding-bottom: 6em;
+    background-image: url('contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(19, 36, 87);
+}
+
+.form-title {
+    margin-top: 5em;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 4em;
+    color: rgb(238, 110, 85);
+    text-transform: uppercase;
+}
+
+.form-title h4 {
+    font-style: italic;
+}
+
+label {
+    font-size: 16px;
+    line-height: 2em;
+    font-weight: normal;
+    color: rgb(238, 110, 85);
+}
+
+input {
+    width: 20em;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+textarea {
+    width: 21.4em;
+    height: 11.5em;
+}
+
+#submit-btn {
+    text-align: center;
+    margin: 2em auto 2em auto;
+    background-color: rgb(250, 219, 73);
+    color: rgb(238, 110, 85);  
+    width: 38em;
+    padding: 1em 0 1em 0;
+    border-radius: 3%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#submit-btn a:visited {
+    color: rgb(238, 110, 85);
+    text-decoration: none;
+}
+
+#submit-btn a:visited {
+    color: rgb(238, 110, 85);
+    text-decoration: none;
+}
+
+ /* maps */
+
+.section-map {
+    background-color: rgba(250, 219, 73, 0.8);
+    margin: 0 auto;
+    padding: 4em 0 4em 0;
+    text-align: center;
+}
+
+iframe {
+    width: 60%;
+    height: 40em;
+}
+
+
+ /*images */
+
+.images {
+    height: 300px;
+}
+
+#image-1 {
+    padding: 0;
+    margin-top: -5px;
+}
+
+#image-2 {
+    padding: 0;
+    margin-top: -5px;
+}
+
+.images img {
+    height: 360px;
+    width: 100%;
+    margin: 0;
+}
+
+ /*footer */
+
+/*footer*/
+
+.footer {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.navbar-footer {
+    margin-top: 2em;
+}
+
+.navbar-footer li {
+    padding: 1em 2em 0 0;
+    text-transform: uppercase;
+}
+
+.navbar-footer a:link {
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar-footer a:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbar-footer a:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(250, 219, 73);
+}
+
+.social-icons {
+    margin-top: 3em;
+}
+
+.social-icons img {
+    margin: 4em 0 0 1em;
+    height: auto;
+    width: 35px;
+}
+
+.copy p {
+    text-align: center;
+}
+
+.newsletter input {
+    height: 3em;
+    width: 24em;
+    color: black;
+    font-weight: normal;
+}
+
+.newsletter label {
+    margin-top: 2em;
+    margin-left: 16em;
+    line-height: 3em;
+    color: rgb(250, 219, 73);
+}
+
+#footer-logo {
+    width: 30%;
+    height: auto;
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.address a:link {
+    color: rgb(250, 219, 73);
+}
+
+.address a:visited {
+    color: rgb(250, 219, 73);
+}
+
+.copy {
+    height: 3em;
+    margin-top: 3em;
+}
+
