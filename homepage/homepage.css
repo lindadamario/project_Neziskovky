@@ -14,6 +14,7 @@ body, div {
 
 body {
     font-family: 'VAGRundschriftDLig';
+    font-size:18px;
 }
 /*header*/
 
@@ -43,12 +44,16 @@ body {
 
 .navbar-list li {
     margin-left: 2em;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 li {
     display: inline-block;
     text-decoration-style: none;
+}
+
+.navbar-list {
+    padding-top: 1em;   
 }
 
 .navbar .btn-signup-login a:link {
@@ -82,12 +87,46 @@ li {
     font-weight: bold;
 }
 
+/*logo*/
+
+.logo img {
+    height: auto;
+    width: 50%;
+}
+
+.logo {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.btn-signup-login li {
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    background-color: #fff;
+    font-size: 18px;
+    border-radius: 15%;
+    border: 3px solid  rgb(250, 219, 73);
+    margin: 1em 1em 0 0;
+}
+
+.btn-signup-login a:link {
+    text-decoration: none;    
+}
+
+.btn-signup-login a:hover {
+    text-decoration: none;   
+    color: rgb(250, 219, 73);
+}
+
+.signup-login {
+    text-align: right;
+    padding: 1.5em;
+}
 
 
  /*cover*/
 
 .cover {
-    background-image: url('rawpixel_modified.jpg');
+    background-image: url('images/rawpixel_modified.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 50em;
@@ -119,43 +158,6 @@ li {
 .cover a:visited {
     color: rgb(238, 110, 85);
     text-decoration: none;
-}
-
-
-
-/*logo*/
-
-.logo img {
-    height: auto;
-    width: 50%;
-}
-
-.logo {
-    margin-top: 0;
-    padding-top: 10px;
-}
-
-.btn-signup-login li {
-    padding: 0.5em 0.8em 0.5em 0.8em;
-    background-color: #fff;
-    font-size: 16px;
-    border-radius: 15%;
-    border: 3px solid  rgb(250, 219, 73);
-    margin: 1em 1em 0 0;
-}
-
-.btn-signup-login a:link {
-    text-decoration: none;    
-}
-
-.btn-signup-login a:hover {
-    text-decoration: none;   
-    color: rgb(250, 219, 73);
-}
-
-.signup-login {
-    text-align: right;
-    padding: 1.5em;
 }
 
 
@@ -244,8 +246,10 @@ li {
 
 .newsletter label {
     margin-top: 2em;
-    margin-left: 16em;
-    line-height: 3em;
+    margin-left: 8em;
+    line-height: 2em;
+    font-size: 18px;
+    color: rgb(250, 219, 73);
 }
 
 #footer-logo {

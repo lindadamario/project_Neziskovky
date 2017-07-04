@@ -1,13 +1,25 @@
+body, div {
+    border: 1px solid transparent;
+}
 
-/*body, div {
-    border: 1px solid black;
-}*/
+@font-face {
+	font-family: 'VAGRundschriftDLig';
+	src: url('fonts/VAGRundschriftD-Lig.eot');
+	src: url('fonts/VAGRundschriftD-Lig.eot?#iefix') format('embedded-opentype'),
+		url('fonts/VAGRundschriftD-Lig.woff') format('woff'),
+		url('fonts/VAGRundschriftD-Lig.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
+body {
+    font-family: 'VAGRundschriftDLig';
+    font-size:18px;
+}
 /*header*/
 
 .navigation-bar {
     height: 113px;
-
 }
 
 .header {
@@ -30,25 +42,19 @@
     text-align: right;
 }
 
-.btn-signup-login li {
-    padding: 0.5em 0.8em 0.5em 0.8em;
-    background-color: #fff;
-    font-size: 16px;
-    border-radius: 15%;
-    border: 3px solid  rgb(250, 219, 73);
-    margin: 1em 1em 0 0;
+.navbar-list li {
+    margin-left: 2em;
+    font-size: 18px;
 }
 
 li {
     display: inline-block;
-    margin-left: 2em;
+    text-decoration-style: none;
 }
 
-.navbar-list li {
-    margin-left: 2em;
-    font-size: 16px;
+.navbar-list {
+    padding-top: 1em;   
 }
-
 
 .navbar .btn-signup-login a:link {
     text-decoration: none;
@@ -81,7 +87,6 @@ li {
     font-weight: bold;
 }
 
-
 /*logo*/
 
 .logo img {
@@ -93,11 +98,37 @@ li {
     margin-top: 0;
     padding-top: 10px;
 }
+
+.btn-signup-login li {
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    background-color: #fff;
+    font-size: 18px;
+    border-radius: 15%;
+    border: 3px solid  rgb(250, 219, 73);
+    margin: 1em 1em 0 0;
+}
+
+.btn-signup-login a:link {
+    text-decoration: none;    
+}
+
+.btn-signup-login a:hover {
+    text-decoration: none;   
+    color: rgb(250, 219, 73);
+}
+
+.signup-login {
+    text-align: right;
+    padding: 1.5em;
+}
+
+
+
  /*contact form */
 
 .contact-form {
     padding-bottom: 6em;
-    background-image: url('contact.png');
+    background-image: url('images/contact.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(19, 36, 87);
@@ -193,7 +224,7 @@ iframe {
     margin: 0;
 }
 
- /*footer */
+
 
 /*footer*/
 
@@ -246,14 +277,13 @@ iframe {
 .newsletter input {
     height: 3em;
     width: 24em;
-    color: black;
-    font-weight: normal;
 }
 
 .newsletter label {
     margin-top: 2em;
-    margin-left: 16em;
-    line-height: 3em;
+    margin-left: 8em;
+    line-height: 2em;
+    font-size: 18px;
     color: rgb(250, 219, 73);
 }
 
@@ -278,4 +308,3 @@ iframe {
     height: 3em;
     margin-top: 3em;
 }
-
